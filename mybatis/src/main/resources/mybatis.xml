@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--环境配置：数据库的连接信息
+        default：必须和某个environment的id值一样
+        告诉我们mybatis使用哪个数据库的连接信息。也就是访问哪个数据库
+    -->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+
+    <environments default="bank">
+        <!--environment：一个数据库信息的配置，环境
+        id:唯一值，自定义，表示环境的名称
+        -->
+        <environment id="selectTest">
+            <!--transactionManager ：mybatis的事务类型
+                type:JDBC(表示使用jdbc中的connection对象的commit，rollback做事务处理)
+                -->
+            <transactionManager type="JDBC"/>
+            <!--
+            daraSource:表示数据源，连接数据库的
+                type:标书数据源的类型，pooled表示使用连接池
+            -->
+            <dataSource type="POOLED">
+                <!--
+                driver,user,username,password 是固定的
+                -->
+                <!--数据库驱动类名-->
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/selectTest"/>
+                <property name="username" value="root"/>
+                <property name="password" value="12345678"/>
+            </dataSource>
+        </environment>
+
+    </environments>
+    <!--sql mapper(sql映射文件)的位置-->
+    <mappers>
+        <!--一个mapper标签指定一个文件的位置，从类路径开始的信息  target/classes(类路径)不要classes-->
+        <mapper resource="io/gaojian/bjpowernode/dao/StudentDao.xml"/>
+        <mapper resource="io/gaojian/bjpowernode/dao/StudentDao.xml"/>
+
+    </mappers>
+
+</configuration>
+        <!--
+           mybatis的主配置文件：主要定义了数据库的配置信息，sql映射文件的位置
+
+            1约束文件
+            <!DOCTYPE configuration
+                PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-config.dtd">
+            2 <configuration>根标签
+        -->
