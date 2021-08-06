@@ -6,10 +6,8 @@
 </head>
 <body>
 <%
-    Object uname = request.getSession().getAttribute("uname");
     Object upwd = request.getSession().getAttribute("upwd");
     Object name = request.getAttribute("name");
-    System.out.println("uname："+uname);
     System.out.println("uname："+upwd);
     System.out.println("uname："+name);
 %>
