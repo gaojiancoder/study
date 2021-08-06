@@ -10,7 +10,7 @@
       </options>
     </properties>
     <root id="archive" name="web.war">
-      <element id="artifact" artifact-name="servlet:war exploded" />
+      <element id="artifact" artifact-name="gaojian" />
     </root>
   </artifact>
 </component>

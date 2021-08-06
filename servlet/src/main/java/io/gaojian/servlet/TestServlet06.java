@@ -7,16 +7,18 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "TestServlet03", value = "/03")
-public class TestServlet03 extends HttpServlet {
+@WebServlet(name = "TestServlet06", value = "/06")
+public class TestServlet06 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String uname = request.getParameter("uname");
-        System.out.println("test03 :"+uname);
+        System.out.println("uname06 :");
+        Object age = request.getAttribute("age");
+        System.out.println("age:"+age);
+        Object name = request.getAttribute("name");
+        System.out.println("name:"+name);
 
-        request.getRequestDispatcher("login.jsp").forward(request,response);
-        //请求跳转
+
     }
 
     @Override

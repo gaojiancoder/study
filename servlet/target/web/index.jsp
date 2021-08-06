@@ -2,13 +2,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>获取域对象</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello">Hello Servlet</a>
-<a href="test">TestServlet</a>
+<%
+    Object uname = request.getSession().getAttribute("uname");
+    Object upwd = request.getSession().getAttribute("upwd");
+    Object name = request.getAttribute("name");
+    System.out.println("uname："+uname);
+    System.out.println("uname："+upwd);
+    System.out.println("uname："+name);
+%>
+
+
 </body>
 </html>

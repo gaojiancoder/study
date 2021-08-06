@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="servlet:war exploded">
+  <artifact type="exploded-war" name="gaojian">
     <output-path>$PROJECT_DIR$/target/web</output-path>
     <properties id="maven-jee-properties">
       <options>
