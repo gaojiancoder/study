@@ -16,5 +16,4 @@ public class RedisConfig {
     public JedisPool jedisPool() {
         return new JedisPool(host, port);
     }
-
 }
