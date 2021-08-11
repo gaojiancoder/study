@@ -5,16 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.gaojian</groupId>
-  <artifactId>Spring-study</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>demo04</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>demo01</module>
-    <module>demo02</module>
-    <module>demo04</module>
-  </modules>
 
-  <name>Spring-study</name>
+  <name>demo04</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,20 +18,15 @@
 
   <dependencies>
     <dependency>
+      <groupId>io.gaojian</groupId>
+      <artifactId>demo01</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-webmvc</artifactId>
-      <version>5.3.9</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-jdbc</artifactId>
-      <version>5.3.9</version>
     </dependency>
   </dependencies>
 

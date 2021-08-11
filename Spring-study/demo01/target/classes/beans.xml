@@ -12,9 +12,10 @@
     <context:annotation-config/>
 
 
-    <bean id="cat" class="io.gaojian.pojo.Cat"/>
-    <bean id="dog" class="io.gaojian.pojo.Dog"/>
-    <bean id="prople" class="io.gaojian.pojo.Prople">
+    <bean id="cat" class="io.gaojian.io.gaojian.dao.pojo.Cat"/>
+    <bean id="dog" class="io.gaojian.io.gaojian.dao.pojo.Dog"/>
+    <bean id="dog22" class="io.gaojian.io.gaojian.dao.pojo.Dog"/>
+    <bean id="prople" class="io.gaojian.io.gaojian.dao.pojo.Prople">
         <property name="name" value="gao"/>
     </bean>
 
