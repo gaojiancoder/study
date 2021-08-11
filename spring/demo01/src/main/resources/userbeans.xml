@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="address" class="io.gaojian.pojo.Address">
+    <property name="address" value="黑龙江"/>
+</bean>
+    <bean id="student" class="io.gaojian.pojo.Student">
+        <!--第一种普通值注入value-->
+        <property name="name" value="高健"/>
+        <!--第二种beans注入,ref-->
+        <property name="address" ref="address">
+        </property>
+        <!--第三种，数组注入-->
+        <property name="books">
+            <array>
+                <value>红楼梦</value>
+                <value>西游记</value>
+                <value>三国演义</value>
+            </array>
+        </property>
+        <!--第四种，list注入-->
+        <property name="hobbys">
+            <list>
+                <value>听歌</value>
+                <value>看电影</value>
+            </list>
+        </property>
+        <!--第五种，list注入-->
+<property name="card">
+    <map>
+        <entry key="身份证" value="12331231"/>
+        <entry key="银行卡" value="3423412"/>
+    </map>
+</property>
+        <!--第六种，set注入-->
+        <property name="games">
+            <set>
+                <value>lol</value>
+                <value>cf</value>
+            </set>
+        </property>
+        <!--第七种，null注入-->
+<property name="wife">
+    <null/>
+</property>
+        <!--第八种，properties信息注入-->
+        <property name="info">
+            <props>
+                <prop key="学号">19401003</prop>
+                <prop key="性别">男</prop>
+            </props>
+        </property>
+
+
+    </bean>
+</beans>
