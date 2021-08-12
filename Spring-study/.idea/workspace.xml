@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e032f96-4526-4e4c-9609-2f32c8651bb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05/src/main/java/com/kuang/log/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/libraries/libs.xml" beforeDir="false" />
@@ -19,7 +21,7 @@
       <change beforePath="$PROJECT_DIR$/../JDBC/out/production/day04-JDBC/cn/itcast/jdbc/jdbc01.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/out/production/day04-JDBC/cn/itcast/jdbc/jdbcDemo01.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo04/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo05/src/main/java/com/kuang/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo05/src/main/java/com/kuang/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog" beforeDir="false" afterPath="$PROJECT_DIR$/../blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../database" beforeDir="false" afterPath="$PROJECT_DIR$/../database" afterDir="false" />
@@ -54,12 +56,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1waJFdJJT223Nr0tgwMbQCtYCLf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -97,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628690665418</updated>
-      <workItem from="1628690667016" duration="4838000" />
+      <workItem from="1628690667016" duration="7007000" />
     </task>
     <servers />
   </component>
@@ -114,5 +119,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

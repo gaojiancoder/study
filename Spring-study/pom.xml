@@ -12,6 +12,7 @@
     <module>demo02</module>
     <module>demo04</module>
     <module>demo05</module>
+    <module>mybatis</module>
   </modules>
 
   <name>Spring-study</name>
