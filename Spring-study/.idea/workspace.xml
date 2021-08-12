@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e032f96-4526-4e4c-9609-2f32c8651bb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo04/src/main/java/io/gaojian/config/gaoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo04/src/main/java/io/gaojian/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo04/src/test/java/io/gaojian/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/libraries/libs.xml" beforeDir="false" />
@@ -22,18 +18,8 @@
       <change beforePath="$PROJECT_DIR$/../JDBC/day04-JDBC/src/cn/itcast/jdbc/jdbcDemo01.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/out/production/day04-JDBC/cn/itcast/jdbc/jdbc01.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/out/production/day04-JDBC/cn/itcast/jdbc/jdbcDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-study.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/demo01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/io/gaojian/pojo/Prople.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/io/gaojian/pojo/Prople.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo04/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog" beforeDir="false" afterPath="$PROJECT_DIR$/../blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../database" beforeDir="false" afterPath="$PROJECT_DIR$/../database" afterDir="false" />
@@ -78,6 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -110,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628690665418</updated>
-      <workItem from="1628690667016" duration="3121000" />
+      <workItem from="1628690667016" duration="4838000" />
     </task>
     <servers />
   </component>
