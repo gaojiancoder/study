@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e032f96-4526-4e4c-9609-2f32c8651bb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo03/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo04/TestCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/StudyLambda/TestLambda01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/StudyLambda/TestLambda02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/libraries/libs.xml" beforeDir="false" />
@@ -20,7 +20,8 @@
       <change beforePath="$PROJECT_DIR$/../JDBC/out/production/day04-JDBC/cn/itcast/jdbc/jdbc01.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/out/production/day04-JDBC/cn/itcast/jdbc/jdbcDemo01.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo03/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo03/TestThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/target/classes/io/gaojian/demo04/TestCallable$WebDownload.class" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/target/classes/io/gaojian/demo04/TestCallable$WebDownload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/target/classes/io/gaojian/demo04/TestCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/target/classes/io/gaojian/demo04/TestCallable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog" beforeDir="false" afterPath="$PROJECT_DIR$/../blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../database" beforeDir="false" afterPath="$PROJECT_DIR$/../database" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../date-structures/src/io/gaojian/java/LinkedList/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../date-structures/src/io/gaojian/java/LinkedList/demo.java" afterDir="false" />
@@ -46,6 +47,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -90,20 +92,7 @@
       <recent name="io.gaojian.demo02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCallable">
-    <configuration name="Download (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.gaojian.demo02.Download" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.gaojian.demo02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestLambda02">
     <configuration name="Race" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.gaojian.demo03.Race" />
       <module name="Thread" />
@@ -130,6 +119,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLambda01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.gaojian.StudyLambda.TestLambda01" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.gaojian.StudyLambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLambda02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.gaojian.StudyLambda.TestLambda02" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.gaojian.StudyLambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.gaojian.demo03.TestThread" />
       <module name="Thread" />
@@ -143,26 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.gaojian.demo02.TestThread" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.gaojian.demo02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLambda02" />
+        <item itemvalue="Application.TestLambda01" />
         <item itemvalue="Application.TestCallable" />
         <item itemvalue="Application.Race" />
         <item itemvalue="Application.TestThread (1)" />
-        <item itemvalue="Application.Download (1)" />
-        <item itemvalue="Application.TestThread" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628690665418</updated>
-      <workItem from="1628690667016" duration="19549000" />
+      <workItem from="1628690667016" duration="24988000" />
     </task>
     <servers />
   </component>
