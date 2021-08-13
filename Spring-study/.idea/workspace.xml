@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e032f96-4526-4e4c-9609-2f32c8651bb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo01/Download.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo01/TestThread01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo02/Download.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo02/TestThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/test/java/io/gaojian/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/io/gaojian/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/io/gaojian/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo03/Race.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo04/TestCallable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/libraries/libs.xml" beforeDir="false" />
@@ -28,13 +19,8 @@
       <change beforePath="$PROJECT_DIR$/../JDBC/day04-JDBC/src/cn/itcast/jdbc/jdbcDemo01.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/out/production/day04-JDBC/cn/itcast/jdbc/jdbc01.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/out/production/day04-JDBC/cn/itcast/jdbc/jdbcDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/mybatis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo03/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo03/TestThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog" beforeDir="false" afterPath="$PROJECT_DIR$/../blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../database" beforeDir="false" afterPath="$PROJECT_DIR$/../database" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../date-structures/src/io/gaojian/java/LinkedList/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../date-structures/src/io/gaojian/java/LinkedList/demo.java" afterDir="false" />
@@ -104,7 +90,7 @@
       <recent name="io.gaojian.demo02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Download (1)">
+  <component name="RunManager" selected="Application.TestCallable">
     <configuration name="Download (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.gaojian.demo02.Download" />
       <module name="Thread" />
@@ -118,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Download" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.gaojian.demo01.Download" />
+    <configuration name="Race" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.gaojian.demo03.Race" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.gaojian.demo01.*" />
+          <option name="PATTERN" value="io.gaojian.demo03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.gaojian.MyTest" />
-      <module name="demo04" />
+    <configuration name="TestCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.gaojian.demo04.TestCallable" />
+      <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.gaojian.*" />
+          <option name="PATTERN" value="io.gaojian.demo04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.gaojian.demo03.TestThread" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.gaojian.demo03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,26 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.gaojian.demo01.TestThread01" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.gaojian.demo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCallable" />
+        <item itemvalue="Application.Race" />
+        <item itemvalue="Application.TestThread (1)" />
         <item itemvalue="Application.Download (1)" />
         <item itemvalue="Application.TestThread" />
-        <item itemvalue="Application.Download" />
-        <item itemvalue="Application.TestThread01" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628690665418</updated>
-      <workItem from="1628690667016" duration="15086000" />
+      <workItem from="1628690667016" duration="19549000" />
     </task>
     <servers />
   </component>
