@@ -1,2 +1,4 @@
-package io.gaojian.demo03;public class TestThread {
+package io.gaojian.demo03;
+
+public class TestThread {
 }

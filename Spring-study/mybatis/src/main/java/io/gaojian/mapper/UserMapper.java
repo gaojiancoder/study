@@ -1,2 +1,6 @@
-package io.gaojian.mapper;public class UserMapper {
+package io.gaojian.mapper;
+
+public interface UserMapper {
+
+
 }

@@ -13,6 +13,7 @@
     <module>demo04</module>
     <module>demo05</module>
     <module>mybatis</module>
+    <module>Thread</module>
   </modules>
 
   <name>Spring-study</name>
