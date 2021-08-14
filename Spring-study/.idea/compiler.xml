@@ -11,8 +11,8 @@
         <module name="demo02" />
         <module name="demo01" />
         <module name="demo05" />
-        <module name="mybatis" />
         <module name="Thread" />
+        <module name="mybatis" />
       </profile>
     </annotationProcessing>
   </component>
