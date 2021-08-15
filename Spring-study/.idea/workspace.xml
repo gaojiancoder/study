@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3732439-4469-4ca1-95af-9ccd9600ef3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/sleep/TestSleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/sleep/TestSleep2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/state/TestJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/state/TestStop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/state/TestYield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/syn/unSafeBuy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/.idea/libraries/libs.xml" beforeDir="false" />
@@ -22,45 +18,10 @@
       <change beforePath="$PROJECT_DIR$/../JDBC/day04-JDBC/src/cn/itcast/jdbc/jdbcDemo01.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/out/production/day04-JDBC/cn/itcast/jdbc/jdbc01.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBC/out/production/day04-JDBC/cn/itcast/jdbc/jdbcDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/entities/entities.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/entities/entities.dat.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/entities/entities.dat.values" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/entities/entities.dat.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/entities/entities.dat.values.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/entities/entities.dat_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/entities/entities.dat_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ed645c3-bd50-4353-a20f-62b7b85b6fbe/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/StudyLambda/TestLambda01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/StudyLambda/TestLambda01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/src/test/java/io/gaojian/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/test/java/io/gaojian/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/target/classes/META-INF/Thread.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/target/classes/io/gaojian/StudyLambda/TestLambda01.class" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/target/classes/io/gaojian/StudyLambda/TestLambda01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/target/classes/io/gaojian/StudyLambda/TestLambda02.class" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/target/classes/io/gaojian/StudyLambda/TestLambda02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/target/test-classes/io/gaojian/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/io/gaojian/pojo/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/io/gaojian/pojo/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/io/gaojian/pojo/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/io/gaojian/pojo/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/io/gaojian/pojo/Prople.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/io/gaojian/pojo/Prople.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/test-classes/io/gaojian/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/test-classes/io/gaojian/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/target/classes/io/gaojian/dao/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/target/classes/io/gaojian/dao/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/target/test-classes/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo04/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo04/target/classes/io/gaojian/config/gaoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo04/target/classes/io/gaojian/config/gaoConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo04/target/classes/io/gaojian/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo04/target/classes/io/gaojian/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo04/target/test-classes/io/gaojian/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo04/target/test-classes/io/gaojian/MyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo05/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo03/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/demo03/TestThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/main/java/io/gaojian/syn/UnsafeBuyTicket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/target/classes/io/gaojian/demo03/TestThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/target/classes/io/gaojian/demo03/TestThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog" beforeDir="false" afterPath="$PROJECT_DIR$/../blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../database" beforeDir="false" afterPath="$PROJECT_DIR$/../database" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../date-structures/src/io/gaojian/java/LinkedList/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../date-structures/src/io/gaojian/java/LinkedList/demo.java" afterDir="false" />
@@ -115,12 +76,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.TestJoin">
+  <component name="RunManager" selected="Application.unSafeBuy">
     <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.gaojian.state.TestJoin" />
       <module name="Thread" />
@@ -134,25 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambda01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.gaojian.StudyLambda.TestLambda01" />
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.gaojian.demo03.TestThread" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.gaojian.StudyLambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSleep2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.gaojian.sleep.TestSleep2" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.gaojian.sleep.*" />
+          <option name="PATTERN" value="io.gaojian.demo03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,6 +115,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.gaojian.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unSafeBuy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.gaojian.syn.unSafeBuy" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.gaojian.syn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestSleep2" />
-      <item itemvalue="Application.TestLambda01" />
       <item itemvalue="Application.TestYield" />
       <item itemvalue="Application.yeld" />
       <item itemvalue="Application.TestJoin" />
+      <item itemvalue="Application.TestThread" />
+      <item itemvalue="Application.unSafeBuy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.unSafeBuy" />
+        <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.TestJoin" />
         <item itemvalue="Application.yeld" />
         <item itemvalue="Application.TestYield" />
-        <item itemvalue="Application.TestLambda01" />
-        <item itemvalue="Application.TestSleep2" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628872142382</updated>
-      <workItem from="1628872144059" duration="9564000" />
+      <workItem from="1628872144059" duration="14248000" />
     </task>
     <servers />
   </component>
